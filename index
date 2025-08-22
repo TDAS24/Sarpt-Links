@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarpt Links - Digital Marketing, Photography & Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-cube">
+                <div class="cube-face front"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face bottom"></div>
+            </div>
+            <div class="loader-text">Sarpt Links</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sarpt Links</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-cube cube-1"></div>
+            <div class="floating-cube cube-2"></div>
+            <div class="floating-cube cube-3"></div>
+            <div class="floating-sphere sphere-1"></div>
+            <div class="floating-sphere sphere-2"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line animate-slide-up">We Create</span>
+                    <span class="title-line animate-slide-up delay-1">Digital</span>
+                    <span class="title-line gradient-text animate-slide-up delay-2">Experiences</span>
+                </h1>
+                <p class="hero-subtitle animate-fade-in delay-3">
+                    Elevating brands through cutting-edge digital marketing, stunning photography, and innovative design solutions.
+                </p>
+                <div class="hero-buttons animate-fade-in delay-4">
+                    <a href="#services" class="btn-primary">Our Services</a>
+                    <a href="#portfolio" class="btn-secondary">View Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-visual animate-fade-in delay-2">
+                <div class="visual-3d">
+                    <div class="rotating-pyramid">
+                        <div class="pyramid-face face1"></div>
+                        <div class="pyramid-face face2"></div>
+                        <div class="pyramid-face face3"></div>
+                        <div class="pyramid-face face4"></div>
+                    </div>
+                    <div class="orbiting-spheres">
+                        <div class="orbit-sphere sphere-a"></div>
+                        <div class="orbit-sphere sphere-b"></div>
+                        <div class="orbit-sphere sphere-c"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive solutions to boost your digital presence</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="marketing">
+                    <div class="card-3d-wrapper">
+                        <div class="card-3d-inner">
+                            <div class="card-front">
+                                <div class="service-icon">
+                                    <div class="icon-3d marketing-icon">
+                                        <div class="icon-face front">📈</div>
+                                        <div class="icon-face back">📊</div>
+                                        <div class="icon-face right">💹</div>
+                                        <div class="icon-face left">📱</div>
+                                        <div class="icon-face top">🎯</div>
+                                        <div class="icon-face bottom">📢</div>
+                                    </div>
+                                </div>
+                                <h3>Digital Marketing</h3>
+                                <p>Strategic campaigns that drive engagement, increase conversions, and grow your brand's online presence.</p>
+                                <div class="hover-indicator">Hover to explore</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Marketing Services</h3>
+                                <ul class="service-features">
+                                    <li>SEO Optimization</li>
+                                    <li>Social Media Management</li>
+                                    <li>PPC Campaigns</li>
+                                    <li>Content Strategy</li>
+                                    <li>Analytics & Reporting</li>
+                                </ul>
+                                <div class="service-cta">Learn More</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="photography">
+                    <div class="card-3d-wrapper">
+                        <div class="card-3d-inner">
+                            <div class="card-front">
+                                <div class="service-icon">
+                                    <div class="icon-3d photography-icon">
+                                        <div class="icon-face front">📷</div>
+                                        <div class="icon-face back">📸</div>
+                                        <div class="icon-face right">🎥</div>
+                                        <div class="icon-face left">🌟</div>
+                                        <div class="icon-face top">💡</div>
+                                        <div class="icon-face bottom">🎨</div>
+                                    </div>
+                                </div>
+                                <h3>Photography</h3>
+                                <p>Professional photography services that capture your brand's essence and tell compelling visual stories.</p>
+                                <div class="hover-indicator">Hover to explore</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Photography Services</h3>
+                                <ul class="service-features">
+                                    <li>Product Photography</li>
+                                    <li>Corporate Portraits</li>
+                                    <li>Event Coverage</li>
+                                    <li>Brand Photography</li>
+                                    <li>Commercial Shoots</li>
+                                </ul>
+                                <div class="service-cta">Learn More</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="design">
+                    <div class="card-3d-wrapper">
+                        <div class="card-3d-inner">
+                            <div class="card-front">
+                                <div class="service-icon">
+                                    <div class="icon-3d design-icon">
+                                        <div class="icon-face front">🎨</div>
+                                        <div class="icon-face back">✏️</div>
+                                        <div class="icon-face right">🖌️</div>
+                                        <div class="icon-face left">💻</div>
+                                        <div class="icon-face top">🎭</div>
+                                        <div class="icon-face bottom">🖼️</div>
+                                    </div>
+                                </div>
+                                <h3>Graphic Design</h3>
+                                <p>Creative design solutions that communicate your message effectively and leave lasting impressions.</p>
+                                <div class="hover-indicator">Hover to explore</div>
+                            </div>
+                            <div class="card-back">
+                                <h3>Design Services</h3>
+                                <ul class="service-features">
+                                    <li>Brand Identity</li>
+                                    <li>Web Design</li>
+                                    <li>Print Design</li>
+                                    <li>UI/UX Design</li>
+                                    <li>Logo Creation</li>
+                                </ul>
+                                <div class="service-cta">Learn More</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work</h2>
+                <p class="section-subtitle">Showcasing our creative excellence across all services</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-3d">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Marketing Campaign">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>E-commerce Campaign</h4>
+                            <p>Digital Marketing</p>
+                            <div class="portfolio-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="photography">
+                    <div class="portfolio-3d">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/1193743/pexels-photo-1193743.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Product Photography">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Product Showcase</h4>
+                            <p>Photography</p>
+                            <div class="portfolio-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-3d">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Brand Design">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Brand Identity</h4>
+                            <p>Graphic Design</p>
+                            <div class="portfolio-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="photography">
+                    <div class="portfolio-3d">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Corporate Photography">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Corporate Event</h4>
+                            <p>Photography</p>
+                            <div class="portfolio-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-3d">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Web Design">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Website Redesign</h4>
+                            <p>Graphic Design</p>
+                            <div class="portfolio-glow"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="marketing">
+                    <div class="portfolio-3d">
+                        <div class="portfolio-image">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Social Media Campaign">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Social Campaign</h4>
+                            <p>Digital Marketing</p>
+                            <div class="portfolio-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Sarpt Links</h2>
+                    <p class="about-description">
+                        We are a passionate team of digital innovators, visual storytellers, and creative problem-solvers. 
+                        With over 8 years of combined experience, we've helped hundreds of businesses transform their digital presence.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-3d">
+                                <div class="stat-number" data-target="150">0</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-3d">
+                                <div class="stat-number" data-target="98">0</div>
+                                <div class="stat-label">Client Satisfaction</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-3d">
+                                <div class="stat-number" data-target="8">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-3d">
+                                <div class="stat-number" data-target="24">0</div>
+                                <div class="stat-label">Awards Won</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="team-3d">
+                        <div class="team-hexagon">
+                            <div class="hexagon-face face-1"></div>
+                            <div class="hexagon-face face-2"></div>
+                            <div class="hexagon-face face-3"></div>
+                            <div class="hexagon-face face-4"></div>
+                            <div class="hexagon-face face-5"></div>
+                            <div class="hexagon-face face-6"></div>
+                        </div>
+                        <div class="floating-particles">
+                            <div class="particle p1"></div>
+                            <div class="particle p2"></div>
+                            <div class="particle p3"></div>
+                            <div class="particle p4"></div>
+                            <div class="particle p5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Create Together</h2>
+                <p class="section-subtitle">Ready to elevate your brand? Get in touch with us today.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon-3d">
+                            <div class="icon-cube">
+                                <div class="cube-face front">📧</div>
+                                <div class="cube-face back">✉️</div>
+                                <div class="cube-face right">📬</div>
+                                <div class="cube-face left">📮</div>
+                                <div class="cube-face top">📨</div>
+                                <div class="cube-face bottom">📩</div>
+                            </div>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>hello@creativeflow.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-3d">
+                            <div class="icon-cube">
+                                <div class="cube-face front">📞</div>
+                                <div class="cube-face back">☎️</div>
+                                <div class="cube-face right">📱</div>
+                                <div class="cube-face left">📲</div>
+                                <div class="cube-face top">📟</div>
+                                <div class="cube-face bottom">📠</div>
+                            </div>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-3d">
+                            <div class="icon-cube">
+                                <div class="cube-face front">📍</div>
+                                <div class="cube-face back">🏢</div>
+                                <div class="cube-face right">🌍</div>
+                                <div class="cube-face left">🗺️</div>
+                                <div class="cube-face top">📌</div>
+                                <div class="cube-face bottom">🏠</div>
+                            </div>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Visit Us</h4>
+                            <p>123 Creative Street<br>Design City, DC 12345</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-3d">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                                <option value="photography">Photography</option>
+                                <option value="graphic-design">Graphic Design</option>
+                                <option value="all-services">All Services</option>
+                            </select>
+                            <label for="service">Service Needed</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <span>Send Message</span>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Sarpt Links</h3>
+                    <p>Transforming ideas into digital reality.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Digital Marketing</a></li>
+                            <li><a href="#services">Photography</a></li>
+                            <li><a href="#services">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sarpt Links. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
